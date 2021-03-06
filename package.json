@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/numjs": "^0.14.5",
+    "fs": "0.0.1-security",
+    "numjs": "git+https://github.com/nicolaspanel/numjs.git"
+  },
+  "author": "Karim Ould Mahieddine",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.27",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  }
+}
